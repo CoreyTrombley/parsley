@@ -8,15 +8,15 @@ Parsley is a small sample of how to build an API using Django Rest Framework.
 <!--[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)-->
 <!--[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)-->
 
-## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
+<!--## Code style-->
+<!--If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. --->
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+<!--[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)-->
  
 ## Screenshots
 Include logo/demo screenshot etc.
-![root api](images/Screen Shot 2018-02-01 at 11.52.19 AM.png)
-![patient api](images/Screen Shot 2018-02-01 at 11.54.13 AM.png)
+![root api](/images/Screen Shot 2018-02-01 at 11.52.19 AM.png)
+![patient api](/images/Screen Shot 2018-02-01 at 11.54.13 AM.png)
 
 ## Tech/framework used
 
@@ -268,14 +268,13 @@ Provide step by step series of examples and explanations about how to get a deve
 * **Sample Call:**
 
   ```javascript
-    fetch({
-      url: "/patients/",
+    fetch('/patients/', {
       dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
+      method: "POST",
+      body: body,
+    })
+    .then(resp => resp.json())
+    .then(json => console.log(json));
   ```
 
 
@@ -346,14 +345,12 @@ Provide step by step series of examples and explanations about how to get a deve
 * **Sample Call:**
 
   ```javascript
-    fetch({
-      url: "/patients/",
+    fetch('/patients/', {
       dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
+      method: "GET",
+    })
+    .then(resp => resp.json())
+    .then(json => console.log(json));
   ```
 
 **Show User**
@@ -423,14 +420,12 @@ Provide step by step series of examples and explanations about how to get a deve
 * **Sample Call:**
 
   ```javascript
-    fetch({
-      url: "/patients/1",
+    fetch(`/patients/${id}/`, {
       dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
+      method: "GET",
+    })
+    .then(resp => resp.json())
+    .then(json => console.log(json));
   ```
 
 <!--## Tests-->
