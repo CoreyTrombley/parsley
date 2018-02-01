@@ -1,0 +1,10 @@
+Django==2.0.1
+djangorestframework==3.7.7
+pytz==2017.3
+Babel==2.5.3
+Django==2.0.1
+django-phonenumber-field==2.0.0
+djangorestframework==3.7.7
+phonenumberslite==8.8.10
+psycopg2==2.7.3.2
+pytz==2017.3
