@@ -148,20 +148,20 @@ Response:
 ```
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+Insalling is easy and FUN!
 
 ### PreReqs
 
-- Install Docker
-  - make sure docker is running
+* Install Docker
+  * make sure docker is running
 
 ### Steps:
 
 1. Clone this Repo
-  - SSH: `git clone git@github.com:CoreyTrombley/parsley.git`
-  - HTTPS: `git clone https://github.com/CoreyTrombley/parsley.git`
+  * SSH: `git clone git@github.com:CoreyTrombley/parsley.git`
+  * HTTPS: `git clone https://github.com/CoreyTrombley/parsley.git`
 2. Run `docker-compose --build`
-  - this will download and start everything you need
+  * this will download and start everything you need
 > **NOTE:** On initial build the migrations will most likely try to fire before the DB is created, why i'm not sure, but you can simply just kill the compose by running `docker-compose down` in a different terminal window or using `control+c` in the same terminal and restart.
 3. Restart if needed due to migrations failing
 
@@ -182,7 +182,7 @@ Provide step by step series of examples and explanations about how to get a deve
 
   `POST`
 
-*  **URL Params**
+* **URL Params**
 
   None
 
@@ -289,7 +289,7 @@ Provide step by step series of examples and explanations about how to get a deve
 
   `GET`
 
-*  **URL Params**
+* **URL Params**
 
   None
 
@@ -364,7 +364,7 @@ Provide step by step series of examples and explanations about how to get a deve
 
   `GET`
 
-*  **URL Params**
+* **URL Params**
 
    **Required:**
  
