@@ -1,7 +1,6 @@
 ## Parsley
 Parsley is a small sample of how to build an API using Django Rest Framework.
 
-
 <!--## Build status-->
 <!--Build status of continus integration i.e. travis, appveyor etc. Ex. - -->
 
@@ -12,11 +11,11 @@ Parsley is a small sample of how to build an API using Django Rest Framework.
 <!--If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. --->
 
 <!--[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)-->
- 
+
 ## Screenshots
-Include logo/demo screenshot etc.
-![root api](/images/Screen Shot 2018-02-01 at 11.52.19 AM.png)
-![patient api](/images/Screen Shot 2018-02-01 at 11.54.13 AM.png)
+
+![root api](/images/Screen%20Shot%202018-02-01%20at%2011.52.19%20AM.png)
+![patient api](/images/Screen%20Shot%202018-02-01%20at%2011.54.13%20AM.png)
 
 ## Tech/framework used
 
